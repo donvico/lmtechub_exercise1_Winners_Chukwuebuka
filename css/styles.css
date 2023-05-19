@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: grid;
+    grid-template-rows: 20px 1fr 40px;
+}
+header{
+    background-color: red;
+}
+main{
+    background-color: black;
+}
+footer{
+    background-color: yellow;
+}
