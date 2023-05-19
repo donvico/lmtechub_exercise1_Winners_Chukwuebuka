@@ -3,15 +3,32 @@
     padding: 0;
 }
 .container{
+    min-height: 100vh;
     display: grid;
-    grid-template-rows: 20px 1fr 40px;
+    grid-template-rows: 90px 1fr 90px;
 }
 header{
-    background-color: red;
+    background-color: blue;
 }
+
 main{
-    background-color: black;
+    background-color: white;
+    display: grid;
+    grid-template-columns: 1fr;
+    text-align: center;
+    gap: 12px;
+}
+.firstimage{
+   margin-top: 20px;
+}
+.secondimage{
+    background-color: white;
+}
+img{
+    width: 400px;
+    height: 300px;
 }
 footer{
     background-color: yellow;
+    margin-top: 20px;
 }
